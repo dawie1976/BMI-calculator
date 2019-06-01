@@ -8,9 +8,9 @@ class BMI:
         self.height = height
 
 #Create function to handle input and calculations	
-    def your_bmi(self):
-        Weight = float(input("Enter your weight: "))
-        Height = float(input("Enter your height: "))
+        def your_bmi(self):
+        Weight = float(input("Enter your weight in KG: "))
+        Height = float(input("Enter your height / example 1.67 cm: "))
         self.weight = Weight
         self.height = Height
 
@@ -24,3 +24,4 @@ class BMI:
             print("Your BMI is good.Keep healthy")
         elif score < 25:
             print('You are underweight.Eat some more')
+
