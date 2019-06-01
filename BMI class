@@ -1,0 +1,26 @@
+import math
+
+
+#create a class called bmi
+class BMI:
+    def __init__(self,weight,height):
+        self.weight = weight
+        self.height = height
+
+#Create function to handle input and calculations	
+    def your_bmi(self):
+        Weight = float(input("Enter your weight: "))
+        Height = float(input("Enter your height: "))
+        self.weight = Weight
+        self.height = Height
+
+        total = Height * Height
+        score = Weight / total
+        print("Your height is {} and weight is {} ".format(Height,Weight))
+        print("Your BMI is {} ".format(round(score)))
+        if score > 30:
+            print("You are obese!! Need to trim down that stomach!")
+        elif score < 27 or score > 24:
+            print("Your BMI is good.Keep healthy")
+        elif score < 25:
+            print('You are an underweight retard.Eat some more')
