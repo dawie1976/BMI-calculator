@@ -23,4 +23,4 @@ class BMI:
         elif score < 27 or score > 24:
             print("Your BMI is good.Keep healthy")
         elif score < 25:
-            print('You are an underweight retard.Eat some more')
+            print('You are underweight.Eat some more')
