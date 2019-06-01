@@ -1,0 +1,5 @@
+from  bmi_class import BMI
+
+mybmi = BMI(None,None)
+
+mybmi.your_bmi()
